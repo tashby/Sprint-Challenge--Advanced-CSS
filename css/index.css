@@ -190,21 +190,6 @@ header img {
   width: 100%;
   border-radius: 5px;
 }
-button {
-  background-color: #23293B;
-  color: #F1F1F1;
-  border-radius: 5px;
-  border: none;
-  height: 4rem;
-  width: 11rem;
-  font-size: 2rem;
-}
-button:hover {
-  background-color: #F1F1F1;
-  color: #23293B;
-  border: 1px dashed black;
-  cursor: pointer;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -274,6 +259,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    padding-top: 10%;
   }
 }
 .home .walk .walk-text h3 {
@@ -291,6 +277,11 @@ footer {
   width: 11rem;
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background-color: #F1F1F1;
   color: #23293B;
@@ -304,6 +295,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
+    margin-left: 0;
   }
 }
 .home .walk .walk-img img {
