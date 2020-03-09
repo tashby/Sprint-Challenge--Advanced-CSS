@@ -1,20 +1,21 @@
+Answers to questions are below as well as in question.txt file.
 
+**What is the difference between an adaptive website and a fully responsive website?**
 
-    What is the difference between an adaptive website and a fully responsive website?
-    Fully Responsive design is when your site flows in sizing as the browser is resized. It does it's best to place things in the given space,
-    and adjusts. Adpative designs is multiple fixed layouts; that detect the size of the screen and output the fixed layout that looks best on that screen size. Adaptive desing is more
-    "rigid" but allows more control.
+    Fully Responsive design is when your site flows in sizing as the browser is resized. It does it's best to place things in the given space, and adjusts. Adaptive designs is multiple fixed layouts; that detect the size of the screen and output the fixed layout that looks best on that screen size. Adaptive design is more "rigid" but allows more control.
 
-    Describe what it means to be mobile first vs desktop first.
-    Desktop first means to ensure that your stylings look great on a desktop first and foremost; and then adapt as well as they can to a mobile device.
-    Being mobile first means ensuring that everything looks and runs flawlessly on your mobile device first, and is still able to be viewed correctly on desktop.
+    **Describe what it means to be mobile first vs desktop first.**
 
-    What does font-size: 62.5% in the html tag do for us when using rem units?
-    It makes 1 rem equal to 10 pixels; which makes styling very easy to calculate.
+Desktop first means to ensure that your stylings look great on a desktop first and foremost; and then adapt as well as they can to a mobile device. Being mobile first means ensuring that everything looks and runs flawlessly on your mobile device first, and is still able to be viewed correctly on desktop.
 
-    How would you describe preprocessing to someone new to CSS?
-    Preprocessing is something that allows you extra powers/abilities in CSS, while ensuring that it is still readable by the computer as normal css.
+**What does font-size: 62.5% in the html tag do for us when using rem units?**
 
-    What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-    My favorite concept in preprocessing is mixins. It allows you flexibility. The one that gives me the most
-    trouble is nesting.
+It makes 1 rem equal to 10 pixels; which makes styling very easy to calculate.
+
+    **How would you describe preprocessing to someone new to CSS?**
+
+Preprocessing is something that allows you extra powers/abilities in CSS, while ensuring that it is still readable by the computer as normal css.
+
+    **What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?**
+
+My favorite concept in preprocessing is mixins. It allows you flexibility. The one that gives me the most trouble is nesting.
