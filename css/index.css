@@ -186,10 +186,6 @@ nav ul li a {
   font-size: 1.8rem;
   color: #23293B;
 }
-header img {
-  width: 100%;
-  border-radius: 5px;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -199,6 +195,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home header img {
+  width: 100%;
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
